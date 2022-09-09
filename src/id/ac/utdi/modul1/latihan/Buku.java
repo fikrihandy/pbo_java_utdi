@@ -5,8 +5,7 @@ class Buku {
     int harga;
     int halaman;
 
-    public void setBuku(String judul, int harga, int
-            halaman) {
+    public void setBuku(String judul, int harga, int halaman) {
         this.judul = judul;
         this.harga = harga;
         this.halaman = halaman;
