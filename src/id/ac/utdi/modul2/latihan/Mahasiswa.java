@@ -1,8 +1,6 @@
 package id.ac.utdi.modul2.latihan;
 
-enum Jurusan {
-    SistemInformasi, TeknikInformatika, TeknikKomputer
-}
+enum Jurusan {SistemInformasi, TeknikInformatika, TeknikKomputer}
 
 public class Mahasiswa {
     int nim;

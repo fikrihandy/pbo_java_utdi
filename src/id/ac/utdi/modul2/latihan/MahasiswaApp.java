@@ -7,7 +7,7 @@ public class MahasiswaApp {
                 215611098,
                 "Abdullah Fikri",
                 Jurusan.SistemInformasi,
-                "abdullah.fikri@students.utdi.ac.id",
+                "iamhnd.ml@gmail.com",
                 true
         );
         mahasiswa.showMahasiswa();
