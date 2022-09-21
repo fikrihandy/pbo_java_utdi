@@ -32,6 +32,5 @@ public class Mahasiswa {
         obj.setNim("175410001");
         obj.setNama("Azkiya");
         obj.tampilkanData();
-
     }
 }

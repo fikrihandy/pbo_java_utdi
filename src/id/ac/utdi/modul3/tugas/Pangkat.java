@@ -22,6 +22,5 @@ class Main {
         pangkat.hitungPangkat(3, 2);
         pangkat.hitungPangkat(5, 3);
         pangkat.hitungPangkat(7, 0);
-
     }
 }
