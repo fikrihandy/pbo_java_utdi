@@ -1,10 +1,10 @@
 package id.ac.utdi.modul5.latihan;
 
 class Film {
-    private String judul;
-    private String jenis;
-    private int durasi;
-    // tidak bisa diakses dari kelas lain, karena private
+    public String judul;
+    public String jenis;
+    public int durasi;
+    // bisa diakses dari kelas lain, karena public
 
     public void setFilm(String judul, String jenis, int durasi) {
         this.judul = judul;
