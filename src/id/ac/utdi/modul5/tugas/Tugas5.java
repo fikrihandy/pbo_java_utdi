@@ -5,8 +5,9 @@ import java.lang.Math;
 import java.text.DecimalFormat;
 
 public class Tugas5 {
+    static Scanner scanner = new Scanner(System.in);
+
     private static void luasLingkaran() {
-        Scanner scanner = new Scanner(System.in);
         System.out.println("Program Hitung Luas Lingkaran");
         System.out.print("Masukkan Jari-jari (r) = ");
         double r = scanner.nextDouble();
@@ -18,9 +19,8 @@ public class Tugas5 {
     public static void main(String[] args) {
         while (true) {
             luasLingkaran();
-            Scanner scanner2 = new Scanner(System.in);
             System.out.print("Hitung lagi ? (y/n) >> ");
-            String again = scanner2.next();
+            String again = scanner.next();
             if (again.equalsIgnoreCase("n")) {
                 System.out.println("Keluar dari aplikasi...");
                 break;
