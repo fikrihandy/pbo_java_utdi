@@ -28,4 +28,10 @@ class Buku {
     public void setHalaman(int halaman) {
         this.halaman = halaman;
     }
+
+    public void tampil() {
+        System.out.println("Judul buku :" + getJudul());
+        System.out.println("Harga buku : " + getHarga());
+        System.out.println("Jumlah halaman : " + getHalaman() + "\n");
+    } // method tampil() untuk menampilkan method dengan getter
 }
