@@ -2,6 +2,7 @@ package id.ac.utdi.modul6.tugas;
 
 public class ObyekBuku {
     public static void main(String[] args) {
+
         Buku buku1 = new Buku();
 
         // akses field dengan setter
@@ -17,6 +18,7 @@ public class ObyekBuku {
         buku2.setHarga(80000);
         buku2.setHalaman(175);
         tampil(buku2);
+        
     }
 
     private static void tampil(Buku buku) {
