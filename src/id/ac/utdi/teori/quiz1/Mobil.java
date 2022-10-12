@@ -16,15 +16,13 @@ public class Mobil {
         this.thnProduksi = thnProduksi;
     }
 
-
     // method menampilkan data
     public void tampil() {
         System.out.println("Merek          = " + getMerek());
         System.out.println("Tahun Produksi = " + getThnProduksi() + "\n");
     }
-    
-    // method asesor
 
+    // method asesor
     public String getMerek() {
         return merek;
     }

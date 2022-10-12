@@ -27,9 +27,8 @@ public class MobilDenganKonstruktor {
         System.out.println("Merek          = " + getMerek());
         System.out.println("Tahun Produksi = " + getThnProduksi() + "\n");
     }
-    
-    // method asesor
 
+    // method asesor
     public String getMerek() {
         return merek;
     }
