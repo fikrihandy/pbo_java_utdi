@@ -12,16 +12,17 @@ public class Mobil {
         this.merek = merek;
     }
 
+    public void setThnProduksi(int thnProduksi) {
+        this.thnProduksi = thnProduksi;
+    }
+
+
     // method menampilkan data
     public void tampil() {
         System.out.println("Merek          = " + getMerek());
         System.out.println("Tahun Produksi = " + getThnProduksi() + "\n");
     }
-
-    public void setThnProduksi(int thnProduksi) {
-        this.thnProduksi = thnProduksi;
-    }
-
+    
     // method asesor
 
     public String getMerek() {
