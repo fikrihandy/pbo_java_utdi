@@ -1,4 +1,4 @@
-package id.ac.utdi.latihan.overloading;
+package id.ac.utdi.latihan;
 
 public class Latihan1 {
     public void proses(int a, float b) {

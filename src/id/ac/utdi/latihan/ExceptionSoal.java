@@ -1,4 +1,4 @@
-package id.ac.utdi.latihan.overloading;
+package id.ac.utdi.latihan;
 
 public class ExceptionSoal {
     public static void main(String[] args) {

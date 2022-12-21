@@ -1,4 +1,4 @@
-package id.ac.utdi.latihan.overloading;
+package id.ac.utdi.latihan;
 
 class A {
 
